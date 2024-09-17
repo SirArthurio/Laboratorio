@@ -8,7 +8,7 @@ export default function inicio() {
         initial={{ scale: 0.95, opacity: 0.5 }}
         transition={{ duration: 0.8 }}
         animate={{ scale: 1.0, opacity: 1.0 }}
-        className=" border-2 rounded-lg p-4 shadow-xl shadow-[#6c584c] "
+        className=" border-2 rounded-lg p-4 shadow-xl shadow-[#6c584c] h-5/6 "
       >
         <motion.div
           initial={{ scale: 1.0, opacity: 0.5, y: -50 }}
