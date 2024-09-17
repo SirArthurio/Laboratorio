@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 export default function inicio() {
   return (
-    <body className="bg-gradient-to-b from-[#1a1a1a]/80 to-[#1a1a1a] min-h-screen text-white p-4">
+    <div className="bg-gradient-to-b from-[#c1afa0]/10 to-[#6c584c] min-h-screen text-white p-4">
       <motion.div
         initial={{ scale: 0.95, opacity: 0.5 }}
         transition={{ duration: 0.8 }}
         animate={{ scale: 1.0, opacity: 1.0 }}
-        className=" border-2 rounded-lg p-4 shadow-xl shadow-[#6c584c] h-5/6 "
+        className="bg-[#957e72] border-2 rounded-lg p-4 shadow-xl shadow-[#6c584c] min-h-screen "
       >
         <motion.div
           initial={{ scale: 1.0, opacity: 0.5, y: -50 }}
@@ -21,7 +21,7 @@ export default function inicio() {
           </h1>
           <h2 className="">So fresh and so clean</h2>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-5">
+        <div className="grid grid-cols-1 md:grid-cols-5 h-full">
           <div className=" p-4 justify-items-center">
             <motion.section
               initial={{ scale: 1.0, opacity: 0.5, x: -50 }}
@@ -49,6 +49,9 @@ export default function inicio() {
                 </li>
               </ul>
             </motion.section>
+            <div className="border-2   rounded-lg m-2 md:block hidden">
+              <img src="https://i.pinimg.com/originals/82/cd/4d/82cd4d98a075c02b573d76462650a78b.gif" alt="aasdad" />
+            </div>
           </div>
           <motion.div
             initial={{ scale: 1.0, opacity: 0.5, x: +50 }}
@@ -117,7 +120,7 @@ export default function inicio() {
         animate={{ scale: 1.0, opacity: 1.0, y: 0 }}
         className="grid grid-cols-1 md:grid-cols-2 m-4 justify-items-center"
       >
-        <section className="m-2 hover:scale-105 hover:shadow-[#6c584c] hover:shadow-md transition-all duration-500 ease-in-out">
+        <section className="m-2 hover:scale-105 hover:shadow-white hover:shadow-md transition-all duration-500 ease-in-out">
           <p>
             <a href="http://validator.w3.org/check/referer">
               <img
@@ -127,7 +130,7 @@ export default function inicio() {
             </a>
           </p>
         </section>
-        <section className="m-2 hover:scale-105 hover:shadow-[#6c584c] hover:shadow-md transition-all duration-500 ease-in-out">
+        <section className="m-2 hover:scale-105 hover:shadow-white hover:shadow-md transition-all duration-500 ease-in-out">
           <p>
             <a href="http://jigsaw.w3.org/css-validator/check/referer">
               <img
@@ -138,6 +141,6 @@ export default function inicio() {
           </p>
         </section>
       </motion.div>
-    </body>
+    </div>
   );
 }
