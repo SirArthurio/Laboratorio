@@ -1,8 +1,20 @@
-# React + Vite
+# Laboratorio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Ejercicio 1: organiza tu página en secciones.
+* Ejercicio 2: espaciado con relleno y márgenes, fondos.
+* Ejercicio 3: flotación, alineación y limpieza.
+* Ejercicio 4: Toques finales cosméticos.
+* Ejercicio 5: sube tu página a la web.
+* Ejercicio 6 (avanzado): Agregar la segunda columna: Lista de amigos.
 
-Currently, two official plugins are available:
+# Siguiendo esta serie de paso se logro realizar la siguiente pagina web:
+![image](https://github.com/user-attachments/assets/4d3d229d-9940-4994-973d-698f86472663)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+
+Demo:
+https://sirarthurio.github.io/Laboratorio/
